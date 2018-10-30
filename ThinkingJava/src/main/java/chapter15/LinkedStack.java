@@ -42,6 +42,8 @@ public class LinkedStack<T> {
             lss.push(s);
         }
         String s;
+        Boolean flag=new Boolean(true);
+        System.out.println(flag);
         while ((s=lss.pop())!=null){
             System.out.println(s);
         }
